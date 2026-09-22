@@ -1,4 +1,3 @@
-
 # PASAR DE HORAS/MINUTOS/SEGUNDOS UN TIEMPO DADO POR EL USUARIO (Y A LA INVERSA)
 
 # Primera parte: de hh:mm:ss a segundos
@@ -17,8 +16,6 @@ hh = total2//3600
 resto_hh = total2 % 3600
 
 mm = resto_hh//60
-resto_mm = resto_hh % 60
+ss = resto_hh % 60
 
-ss = resto_mm
-
-print(f"{total2} segundos son {hh}:{mm}:{ss}")
+print(f"{total2} segundos son {hh}:{mm}:{ss}") 
